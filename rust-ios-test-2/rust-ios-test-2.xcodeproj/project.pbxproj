@@ -55,19 +55,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7B8AD9D929B5300200BE677A /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		7B02AB8129B53F5900D4A546 /* libtodolist.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtodolist.a; path = ../target/universal/debug/libtodolist.a; sourceTree = "<group>"; };
 		7B50665A29AF3FE7006B2B8F /* todolist.udl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = todolist.udl; path = ../../src/todolist.udl; sourceTree = "<group>"; };
@@ -212,7 +199,6 @@
 				7B99E36D29AF3A9E00729A69 /* Frameworks */,
 				7B43846229B49A5E0062A751 /* Headers */,
 				7B99E36E29AF3A9E00729A69 /* Resources */,
-				7B8AD9D929B5300200BE677A /* Embed Libraries */,
 			);
 			buildRules = (
 				7B99E3A329AF3CF100729A69 /* PBXBuildRule */,
@@ -578,7 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DF3GV8F27U;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rust-ios-test-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
